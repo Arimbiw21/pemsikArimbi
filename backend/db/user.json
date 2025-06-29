@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Admin arimbi",
+    "email": "admin@gmail.com",
+    "password": "123456",
+    "role": "admin",
+    "permission": [
+      "dashboard.page",
+      "dashboard.table",
+      "mahasiswa.page",
+      "matakuliah.page",
+      "dosen.page",
+      "mahasiswa.read",
+      "mahasiswa.create",
+      "mahasiswa.update",
+      "mahasiswa.delete",
+      "dosen.read",
+      "dosen.create",
+      "dosen.update",
+      "dosen.delete",
+      "matakuliah.read",
+      "matakuliah.create",
+      "matakuliah.update",
+      "matakuliah.delete",
+      "rencana-studi.page",
+      "rencana-studi.read",
+      "rencana-studi.create",
+      "rencana-studi.update",
+      "rencana-studi.delete"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "fais",
+    "email": "111202214520@gmail.com",
+    "password": "111202267676",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "faisal",
+    "email": "111202214519@gmail.com",
+    "password": "1112022167676",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  }
+]
